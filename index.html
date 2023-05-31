@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+function student(firstname,lastname,age,course){
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.age = age;
+    this.course = course;
+  }
+
+  const a = new student("tulsi", "satasiya","19","fullstack");
+  a.city = "surat";
+  console.log("Firstname:-",a.firstname);
+  console.log("Lastname:-",a.lastname);
+  console.log("Age:-",a.age);
+  console.log("Course:-",a.course);
+  console.log(a);
+
+  let it ={
+    course_name : "fullstack",
+    fees : "95000",
+    students : "30",
+    time : "7:00",
+
+    set up_students(value){
+      this.students = value;
+    }
+  }
+  console.log("students :-",it.students);
+  console.log(it);
+
+  it.up_students = "33";
+  console.log(it);
+  it.institute = "red and white";
+  console.log("institute :-",it.institute);
+  console.log(it);
+
+
+
+ 
+
+</script>
